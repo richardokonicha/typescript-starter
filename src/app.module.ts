@@ -11,7 +11,7 @@ import { ConfigModule } from "./config/config.module";
 // import { ContributorsModule } from "./contributors/contributors.module";
 import { DatabaseModule } from "./database/database.module";
 // import { FeatureModule } from "./feature/feature.module";
-// import { HealthModule } from "./health/health.module";
+import { HealthModule } from "./health/health.module";
 import { MailModule } from "./mail/mail.module";
 // import { PrinterModule } from "./printer/printer.module";
 // import { ResumeModule } from "./resume/resume.module";
@@ -26,7 +26,7 @@ import { MailModule } from "./mail/mail.module";
     DatabaseModule,
     MailModule,
     RavenModule,
-    // HealthModule,
+    HealthModule,
 
     // Feature Modules
     // AuthModule.register(),
